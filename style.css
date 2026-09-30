@@ -1,7 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background: linear-gradient(
+        180deg,
+        #e8f1f8 0%,
+        #f8fafc 45%,
+        #e8f1f8 100%
+    );
     color: #222;
 }
 
@@ -1225,6 +1230,346 @@ footer {
     }
 
 }
+
+/* Portfolio Section */
+
+.portfolio {
+    background-color: #f8fafc;
+    padding: 70px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    color: #0f172a;
+    margin: 0 0 12px;
+}
+
+.portfolio-intro {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.portfolio-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.portfolio-card {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.portfolio-card h3 {
+    color: #0f172a;
+    font-size: 21px;
+    margin: 0 0 12px;
+}
+
+.portfolio-card p {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+
+    .portfolio {
+        padding: 55px 20px;
+    }
+
+    .portfolio h2 {
+        font-size: 30px;
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .portfolio-card {
+        padding: 25px 20px;
+    }
+
+}
+
+/* Portfolio Images */
+
+.portfolio-card img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+.portfolio-image-link {
+    max-width: 320px;
+    margin: 0 auto 20px;
+}
+
+/* Portfolio Image Interaction */
+
+.portfolio-card img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.portfolio-category {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+
+.portfolio-image-link {
+    display: block;
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.portfolio-image-link span {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.portfolio-image-link:hover span {
+    text-decoration: underline;
+}
+
+.portfolio-image-link span {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image-link:hover span {
+    transform: translateX(4px);
+}
+
+.portfolio-note {
+    max-width: 700px;
+    margin: -20px auto 40px;
+    color: #94a3b8;
+    font-size: 15px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.portfolio-preview {
+    width: 100%;
+    max-width: 320px;
+    height: 150px;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.portfolio-preview {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-preview:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio-preview .portfolio-icon {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.portfolio-preview span {
+    color: #64748b;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.portfolio-container {
+    align-items: start;
+}
+
+
+.portfolio-count {
+    display: inline-block;
+    margin: 0 auto 35px;
+    padding: 7px 14px;
+    background-color: #e0ecff;
+    color: #2563eb;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.portfolio-more {
+    margin: 35px 0 0;
+    color: #94a3b8;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/* Call To Action */
+
+.cta-section {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    padding: 65px 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta-section .section-label {
+    color: #60a5fa;
+    margin-bottom: 12px;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+
+.cta-section p:not(.section-label) {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #cbd5e1;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+    opacity: 0.95;
+}
+
+.cta-button:active {
+    transform: scale(0.97);
+}
+
+@media (max-width: 700px) {
+
+    .cta-section {
+        padding: 55px 20px;
+    }
+
+    .cta-section h2 {
+        font-size: 30px;
+    }
+
+}
+
+.cta-section h2 {
+    color: white;
+}
+
+
+
+.cta-note {
+    margin: 18px 0 0;
+    color: #94a3b8;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.contact-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+.contact-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.form-intro {
+    text-align: center;
+    max-width: 550px;
+    margin: -10px auto 25px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+.form-note {
+    margin: -5px 0 18px;
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
