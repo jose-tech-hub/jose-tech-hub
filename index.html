@@ -39,11 +39,12 @@
     </button>
 
     <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</div>
 
 </nav>
 
@@ -241,6 +242,138 @@
 
 </section>
 
+  <section id="portfolio" class="portfolio">
+
+    <p class="section-label">OUR WORK</p>
+
+    <h2>Portfolio</h2>
+
+    <p class="portfolio-intro">
+        A look at some of the IT and digital solutions
+        created by Jose Tech Hub.
+    </p>
+
+    <p class="portfolio-note">
+    From creative designs to practical digital solutions,
+    every project is built with care and attention to detail.
+    </p>
+    <p class="portfolio-count">
+    4 Featured Projects
+    </p>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">📄</div>
+    <span>CV & RESUME</span>
+</div>
+
+          <p class="portfolio-category">DOCUMENT DESIGN</p>
+
+            <h3>CV & Resume Design</h3>
+
+            <p>
+                Professional and modern CV designs
+                created for job seekers and professionals.
+            </p>
+
+        </div>
+
+       <div class="portfolio-card">
+
+    <a
+    href="pool-party-poster.png"
+    target="_blank"
+    class="portfolio-image-link">
+
+    <img
+        src="pool-party-poster.png"
+        alt="Staff Meet and Greet Pool Party poster">
+
+    <span>View Full Poster ↗</span>
+
+</a>
+
+         <p class="portfolio-category">EVENT DESIGN</p>
+    <h3>Pool Party Event Poster</h3>
+
+<p>
+    Custom promotional poster designed for
+    Igongo Staff Events Management.
+</p>
+
+</div>
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">🌐</div>
+    <span>WEB DEVELOPMENT</span>
+</div>
+
+          <p class="portfolio-category">WEB DEVELOPMENT</p>
+
+            <h3>Website Design</h3>
+
+            <p>
+                Responsive websites designed to help
+                businesses establish their online presence.
+            </p>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">🧾</div>
+    <span>BUSINESS MATERIALS</span>
+</div>
+
+          <p class="portfolio-category">BUSINESS MATERIALS</p>
+
+            <h3>Documents & Business Materials</h3>
+
+            <p>
+                Professional document typing, formatting
+                and digital business materials.
+            </p>
+
+        </div>
+
+    </div>
+
+    <p class="portfolio-more">
+    More projects coming soon...
+    </p>
+
+  </section>
+
+  <section class="cta-section">
+
+    <div class="cta-content">
+
+        <p class="section-label">LET'S GET STARTED</p>
+
+        <h2>Ready to Get Started?</h2>
+
+        <p>
+            Tell us what you need and let's find the right
+            digital solution for you.
+        </p>
+
+        <a href="#contact" class="cta-button">
+            Request a Service
+        </a>
+      <p class="cta-note">
+    Affordable • Reliable • Professional
+      </p>
+
+    </div>
+
+  </section>
+
 <section id="how-it-works" class="how-it-works">
 
     <p class="section-label">HOW IT WORKS</p>
@@ -390,25 +523,44 @@
 
     <p class="contact-label">GET IN TOUCH</p>
 
-<h2>Let's Work Together</h2>
+<h2>Let's Build Something Together</h2>
 
 <p class="contact-intro">
-    Need an IT or digital service?
-    Jose Tech Hub is ready to help you turn your ideas
-    into practical digital solutions.
+    Have an idea, a digital challenge or a service you need?
+    Tell us what you have in mind and Jose Tech Hub will
+    help you find a practical solution.
 </p>
 
     <div class="contact-info">
 
         <div class="contact-item">
-            <h3>📱 WhatsApp</h3>
-            <p>+256 704 455 234</p>
-        </div>
+
+    <h3>📱 WhatsApp</h3>
+
+    <p>
+        <a
+            href="https://wa.me/256704455234"
+            target="_blank"
+            class="contact-link">
+            +256 704 455 234
+        </a>
+    </p>
+
+</div>
 
         <div class="contact-item">
-            <h3>📞 Call Us</h3>
-            <p>+256 704 455 234</p>
-        </div>
+
+    <h3>📞 Call Us</h3>
+
+    <p>
+        <a
+            href="tel:+256704455234"
+            class="contact-link">
+            +256 704 455 234
+        </a>
+    </p>
+
+</div>
 
         <div class="contact-item">
             <h3>💻 Services</h3>
@@ -423,6 +575,11 @@
     <p class="form-label">REQUEST A SERVICE</p>
 
     <h3>Tell Us What You Need</h3>
+
+        <p class="form-intro">
+    Fill in the details below and your request will be
+    sent directly to Jose Tech Hub on WhatsApp.
+        </p>
 
     <form id="serviceForm">
 
@@ -482,7 +639,7 @@
                 type="tel"
                 id="customerPhone"
                 name="customerPhone"
-                placeholder="e.g. 0700 000 000"
+                placeholder="e.g. +256 700 000 000"
                 required>
 
         </div>
@@ -497,14 +654,18 @@
                 id="serviceMessage"
                 name="serviceMessage"
                 rows="5"
-                placeholder="Tell us a little about your request..."
+                placeholder="Tell us what you need, your preferred deadline, or any important details..."
                 required></textarea>
 
         </div>
 
+      <p class="form-note">
+    🔒 Your information is used only to respond to your service request.
+      </p>
+
         <button type="submit" class="form-submit">
-            💬 Send Request on WhatsApp
-        </button>
+    💬 Send My Request on WhatsApp
+</button>
 
     </form>
 
@@ -591,4 +752,758 @@
   
 
 </body>
-</html>
+    </html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+  
+  <meta name="description" content="Jose Tech Hub provides reliable and affordable IT and digital services including CV design, document typing, poster design, website design, computer support and IT troubleshooting.">
+
+<meta name="keywords" content="Jose Tech Hub, IT services Uganda, digital services Uganda, CV design, poster design, website design, computer support">
+
+<meta name="author" content="Jose Tech Hub">
+
+
+    <title>Jose Tech Hub | Reliable IT & Digital Services</title>
+
+  <link rel="icon" type="image/png" href="jth_favicon_512.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+
+    <div class="logo">
+
+    <span class="logo-mark">J</span>
+
+    <span class="logo-text">
+        Jose Tech Hub
+    </span>
+
+</div>
+
+    <button class="menu-button">
+        ☰
+    </button>
+
+    <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+    <!-- Header -->
+    <header class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-small">WELCOME TO</p>
+
+        <h1>Jose Tech Hub</h1>
+
+        <p class="hero-subtitle">
+            Reliable IT & Digital Services 💻
+        </p>
+
+        <p class="hero-description">
+            Professional, affordable and reliable technology
+            solutions for individuals, businesses and organizations.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#services" class="btn primary-btn">
+                Explore Our Services
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+                Contact Us
+            </a>
+        </div>
+
+    </div>
+
+</header>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+
+    <div class="welcome-content">
+
+        <p class="welcome-label">WELCOME TO</p>
+
+        <h2>Jose Tech Hub</h2>
+
+        <h3>Reliable IT & Digital Solutions for Everyone.</h3>
+
+        <p class="welcome-text">
+            We provide reliable and affordable IT and digital
+            services to individuals, businesses and organizations.
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+      <p class="services-intro">
+    Professional, affordable and reliable digital solutions
+    tailored to your needs.
+      </p>
+
+    <div class="service-container">
+
+      
+     <div class="service-card">
+
+    <h3>💻 CV & Resume Design</h3>
+
+    <p>
+        Professional CV and resume design
+        for job seekers and professionals.
+    </p>
+
+    <p class="service-price">
+        Starting from <strong>UGX 15,000</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20CV%20%26%20Resume%20Design%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+</div>
+
+        <div class="service-card">
+
+    <h3>🛠️ Computer & Phone Support</h3>
+
+    <p>
+        Software installation, troubleshooting
+        and technical support.
+    </p>
+
+    <p class="service-price">
+        Starting from <strong>UGX 15,000</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20Computer%20%26%20Phone%20Support%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+        </div>
+<div class="service-card">
+
+    <h3>⌨️ Document Typing & Formatting</h3>
+
+    <p>
+        Fast and professional document typing,
+        editing and formatting.
+    </p>
+
+    <p class="service-price">
+        Starting from <strong>UGX 15,000</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20Document%20Typing%20%26%20Formatting%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+</div>
+
+        <div class="service-card">
+
+    <h3>🎨 Poster & Flyer Design</h3>
+
+    <p>
+        Attractive posters, flyers and
+        promotional designs.
+    </p>
+
+    <p class="service-price">
+        Starting from <strong>UGX 25,000</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20Poster%20%26%20Flyer%20Design%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+</div>
+
+        <div class="service-card">
+
+    <h3>🌐 Website Design</h3>
+
+    <p>
+        Simple and professional websites
+        for individuals and businesses.
+    </p>
+
+    <p class="service-price">
+        <strong>Price: Negotiable</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20Website%20Design%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+</div>
+
+        <div class="service-card">
+
+    <h3>🔧 IT Help & Troubleshooting</h3>
+
+    <p>
+        Reliable assistance with everyday
+        technology problems.
+    </p>
+
+    <p class="service-price">
+        Starting from <strong>UGX 10,000</strong>
+    </p>
+
+    <a href="https://wa.me/256704455234?text=Hello%20Jose%20Tech%20Hub,%20I%20would%20like%20to%20request%20your%20IT%20Help%20%26%20Troubleshooting%20service."
+       class="service-btn"
+       target="_blank">
+        Request This Service
+    </a>
+
+</div>
+
+    </div>
+
+</section>
+
+  <section id="portfolio" class="portfolio">
+
+    <p class="section-label">OUR WORK</p>
+
+    <h2>Portfolio</h2>
+
+    <p class="portfolio-intro">
+        A look at some of the IT and digital solutions
+        created by Jose Tech Hub.
+    </p>
+
+    <p class="portfolio-note">
+    From creative designs to practical digital solutions,
+    every project is built with care and attention to detail.
+    </p>
+    <p class="portfolio-count">
+    4 Featured Projects
+    </p>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">📄</div>
+    <span>CV & RESUME</span>
+</div>
+
+          <p class="portfolio-category">DOCUMENT DESIGN</p>
+
+            <h3>CV & Resume Design</h3>
+
+            <p>
+                Professional and modern CV designs
+                created for job seekers and professionals.
+            </p>
+
+        </div>
+
+       <div class="portfolio-card">
+
+    <a
+    href="pool-party-poster.png"
+    target="_blank"
+    class="portfolio-image-link">
+
+    <img
+        src="pool-party-poster.png"
+        alt="Staff Meet and Greet Pool Party poster">
+
+    <span>View Full Poster ↗</span>
+
+</a>
+
+         <p class="portfolio-category">EVENT DESIGN</p>
+    <h3>Pool Party Event Poster</h3>
+
+<p>
+    Custom promotional poster designed for
+    Igongo Staff Events Management.
+</p>
+
+</div>
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">🌐</div>
+    <span>WEB DEVELOPMENT</span>
+</div>
+
+          <p class="portfolio-category">WEB DEVELOPMENT</p>
+
+            <h3>Website Design</h3>
+
+            <p>
+                Responsive websites designed to help
+                businesses establish their online presence.
+            </p>
+
+        </div>
+
+        <div class="portfolio-card">
+
+            <div class="portfolio-preview">
+    <div class="portfolio-icon">🧾</div>
+    <span>BUSINESS MATERIALS</span>
+</div>
+
+          <p class="portfolio-category">BUSINESS MATERIALS</p>
+
+            <h3>Documents & Business Materials</h3>
+
+            <p>
+                Professional document typing, formatting
+                and digital business materials.
+            </p>
+
+        </div>
+
+    </div>
+
+    <p class="portfolio-more">
+    More projects coming soon...
+    </p>
+
+  </section>
+
+  <section class="cta-section">
+
+    <div class="cta-content">
+
+        <p class="section-label">LET'S GET STARTED</p>
+
+        <h2>Ready to Get Started?</h2>
+
+        <p>
+            Tell us what you need and let's find the right
+            digital solution for you.
+        </p>
+
+        <a href="#contact" class="cta-button">
+            Request a Service
+        </a>
+      <p class="cta-note">
+    Affordable • Reliable • Professional
+      </p>
+
+    </div>
+
+  </section>
+
+<section id="how-it-works" class="how-it-works">
+
+    <p class="section-label">HOW IT WORKS</p>
+
+    <h2>Simple. Quick. Reliable.</h2>
+
+    <p class="how-intro">
+        Getting the IT or digital service you need is easy.
+    </p>
+
+    <div class="steps-container">
+
+        <div class="step-card">
+
+            <div class="step-number">1</div>
+
+            <h3>Choose a Service</h3>
+
+            <p>
+                Find the IT or digital service
+                that matches your needs.
+            </p>
+
+        </div>
+
+        <div class="step-card">
+
+            <div class="step-number">2</div>
+
+            <h3>Contact Us</h3>
+
+            <p>
+                Send us a WhatsApp message
+                or give us a call.
+            </p>
+
+        </div>
+
+        <div class="step-card">
+
+            <div class="step-number">3</div>
+
+            <h3>Get Your Solution</h3>
+
+            <p>
+                We discuss your requirements
+                and provide the right solution.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  
+
+  <section id="about" class="about">
+
+    <div class="about-content">
+
+        <p class="section-label">ABOUT US</p>
+
+        <h2>About Jose Tech Hub</h2>
+
+        <p class="about-intro">
+            Jose Tech Hub is a technology and digital services
+            business focused on providing reliable, affordable
+            and professional solutions.
+        </p>
+
+      <div class="mission-box">
+
+    <p class="mission-label">OUR MISSION</p>
+
+    <p class="mission-text">
+        To make technology simple, accessible and useful
+        by providing reliable digital solutions that help
+        individuals and businesses achieve more.
+    </p>
+
+      </div>
+
+        <p class="about-text">
+            We help individuals, students, job seekers,
+            entrepreneurs and businesses with their everyday
+            technology and digital needs.
+        </p>
+
+        <p class="about-text">
+            Our goal is simple: to make technology easier,
+            more useful and more accessible.
+        </p>
+
+    </div>
+
+
+    <div class="why-us">
+
+        <h2>Why Choose Jose Tech Hub?</h2>
+
+        <div class="why-container">
+
+            <div class="why-card">
+                <div class="why-icon">💻</div>
+                <h3>Reliable Technology</h3>
+                <p>
+                    Practical technology solutions designed
+                    to solve everyday digital challenges.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">🎨</div>
+                <h3>Professional Services</h3>
+                <p>
+                    Quality IT and digital services presented
+                    with professionalism and attention to detail.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">💰</div>
+                <h3>Affordable Solutions</h3>
+                <p>
+                    Useful technology services designed to
+                    provide value without unnecessary costs.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">🤝</div>
+                <h3>Customer-Focused Support</h3>
+                <p>
+                    Friendly and reliable support focused on
+                    understanding each customer's needs.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+    <p class="contact-label">GET IN TOUCH</p>
+
+<h2>Let's Build Something Together</h2>
+
+<p class="contact-intro">
+    Have an idea, a digital challenge or a service you need?
+    Tell us what you have in mind and Jose Tech Hub will
+    help you find a practical solution.
+</p>
+
+    <div class="contact-info">
+
+        <div class="contact-item">
+
+    <h3>📱 WhatsApp</h3>
+
+    <p>
+        <a
+            href="https://wa.me/256704455234"
+            target="_blank"
+            class="contact-link">
+            +256 704 455 234
+        </a>
+    </p>
+
+</div>
+
+        <div class="contact-item">
+
+    <h3>📞 Call Us</h3>
+
+    <p>
+        <a
+            href="tel:+256704455234"
+            class="contact-link">
+            +256 704 455 234
+        </a>
+    </p>
+
+</div>
+
+        <div class="contact-item">
+            <h3>💻 Services</h3>
+            <p>IT & Digital Solutions</p>
+        </div>
+
+    </div>
+
+
+      <div class="service-form">
+
+    <p class="form-label">REQUEST A SERVICE</p>
+
+    <h3>Tell Us What You Need</h3>
+
+        <p class="form-intro">
+    Fill in the details below and your request will be
+    sent directly to Jose Tech Hub on WhatsApp.
+        </p>
+
+    <form id="serviceForm">
+
+        <div class="form-group">
+            <label for="customerName">Your Name</label>
+
+            <input
+                type="text"
+                id="customerName"
+                name="customerName"
+                placeholder="Enter your name"
+                required>
+        </div>
+
+        <div class="form-group">
+            <label for="serviceNeeded">Service Needed</label>
+
+            <select id="serviceNeeded" name="serviceNeeded" required>
+
+                <option value="">Select a service</option>
+
+                <option value="CV & Resume Design">
+                    CV & Resume Design
+                </option>
+
+                <option value="Computer & Phone Support">
+                    Computer & Phone Support
+                </option>
+
+                <option value="Document Typing & Formatting">
+                    Document Typing & Formatting
+                </option>
+
+                <option value="Poster & Flyer Design">
+                    Poster & Flyer Design
+                </option>
+
+                <option value="Website Design">
+                    Website Design
+                </option>
+
+                <option value="IT Help & Troubleshooting">
+                    IT Help & Troubleshooting
+                </option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="customerPhone">
+                WhatsApp / Phone Number
+            </label>
+
+            <input
+                type="tel"
+                id="customerPhone"
+                name="customerPhone"
+                placeholder="e.g. +256 700 000 000"
+                required>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="serviceMessage">
+                Briefly describe what you need
+            </label>
+
+            <textarea
+                id="serviceMessage"
+                name="serviceMessage"
+                rows="5"
+                placeholder="Tell us what you need, your preferred deadline, or any important details..."
+                required></textarea>
+
+        </div>
+
+      <p class="form-note">
+    🔒 Your information is used only to respond to your service request.
+      </p>
+
+        <button type="submit" class="form-submit">
+    💬 Send My Request on WhatsApp
+</button>
+
+    </form>
+
+      </div>
+
+    <div class="contact-buttons">
+
+        <a
+            href="https://wa.me/256704455234"
+            class="whatsapp-button"
+            target="_blank">
+            💬 Chat With Us on WhatsApp
+        </a>
+
+        <a
+            href="tel:+256704455234"
+            class="call-button">
+            📞 Call Jose Tech Hub
+        </a>
+
+    </div>
+
+</section>
+    <!-- Footer -->
+    <footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h3>Jose Tech Hub</h3>
+            <p>
+                Reliable IT & Digital Services 💻
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact</h4>
+
+            <p>📱 +256 704 455 234</p>
+
+            <a
+                href="https://wa.me/256704455234"
+                target="_blank">
+                💬 WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 Jose Tech Hub. All rights reserved.
+        </p>
+    </div>
+
+</footer>
+
+  <script src="script.js"></script>
+
+<a
+    href="https://wa.me/256704455234"
+    class="floating-whatsapp"
+    target="_blank"
+    aria-label="Chat with Jose Tech Hub on WhatsApp">
+    💬
+</a>
+
+  <button
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Back to top">
+    ↑
+  </button>
+
+  
+
+</body>
+    </html>
